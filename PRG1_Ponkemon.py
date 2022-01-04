@@ -1,3 +1,6 @@
+nums = list(map(int, input().split()))
+print(nums)
+
 def solution(nums):
     answer = 0
     myPokemon = []
@@ -13,3 +16,6 @@ def solution(nums):
     answer = len(myPokemon)
         
     return answer
+
+answer = solution(nums)
+print(answer)
