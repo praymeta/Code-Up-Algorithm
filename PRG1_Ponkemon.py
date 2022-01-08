@@ -1,5 +1,4 @@
 nums = list(map(int, input().split()))
-print(nums)
 
 def solution(nums):
     answer = 0
