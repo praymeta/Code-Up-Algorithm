@@ -1,3 +1,5 @@
+numbers = list(map(int, input().split()))
+
 def solution(numbers):
     answer = []
     for i in range(len(numbers)):
@@ -10,4 +12,6 @@ def solution(numbers):
     answer.sort()
 
     return answer
-    
+
+answer = solution(numbers)
+print(answer)
