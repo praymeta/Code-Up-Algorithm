@@ -1,4 +1,5 @@
-def nSum(a):
+def solve(a):
+    ans = 0
     for i in range(len(a)):
-        sumValue = sumValue + a[i]
-    return sumValue
+        ans = ans + a[i]
+    return ans
