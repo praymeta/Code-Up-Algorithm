@@ -15,3 +15,5 @@ def selfNumber():
     selfNumber.sort()
     for i in range(len(selfNumber)):
         print(selfNumber[i])
+
+a = selfNumber()
