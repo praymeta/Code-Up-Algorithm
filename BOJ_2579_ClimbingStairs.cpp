@@ -16,6 +16,6 @@ int main(void) {
     for(int i = 3; i <= n; i++) {
         dp[i] = max(dp[i - 2] + stairs[i], dp[i - 3] + stairs[i - 1] + stairs[i]);
     }
-    cout << dp[n];
+    cout << dp[n] << endl;
     return 0;
 }
